@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+i{cursor: pointer;}
+.txet h2{padding-top: 20%;
+font-size: 5rem;}
+.home{background-image: url(../img/events-heavenly-header.jpg);
+height:100vh;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center center;
+}
+.transparentimge{height: 100vh;
+background-color: rgba(214, 46, 51, 0.6);
+}
+.slide a{text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+.slide{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    z-index: .99999999999;
+    background-color: black;
+}
+.slidei1{position: absolute;
+top: 20px;
+right: 20px;}
+.slide a{display: block;
+padding: 30px;
+}
+.slidei{
+align-self: flex-start;
+transform: translate(100%);
+display: inline-block;
+color: white;
+margin-top: 50%;}
+#Duration{margin: auto;}
+.parentsigner h2 {background-color: tomato;
+padding: 10px;
+border-radius: 10px;}
+.slidesinger{width: 50%;
+margin: auto;}
+.parentsigner p{border: solid whitesmoke 5px;
+border-radius: 20px;}
+.par{display: none;} 
+ .active{background-color: #fff;
+ }
+ .containercounter{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+.row1{border: soild black 10px;
+    background-color:rgba(214, 46, 51, 0.6);
+ height: 100%;
+    width: 100%;}
+    .cards{gap: 15px;
+    color: #fff;
+font-size: 40px;}
+.icons{border: solid gray 1px;
+
+display: inline-block;
+}
+ i{color:gray}
+.i .icons:hover{background-color: #dc3545;}
+.i .icons:hover i{color: #fff;}
